@@ -1,8 +1,10 @@
 {
-    "name": "vitorh/cep-api",
-    "description": "Busca de cep online",
-    "type": "library",
-    "license": "MIT",
+    "name": "vitorh/cep-api-test",
+    "autoload": {
+        "psr-4": {
+            "Vitorh\\CepApiTest\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Vitor H.",
@@ -10,14 +12,6 @@
         }
     ],
     "require": {
-        "php": ">=8.4.1"
-    },
-    "autoload": {
-        "psr-0": {
-            "Search": "src/"
-        },
-        "psr-4": {
-            "VitorH\\CepApi\\": "src/"
-        }
+        "vitorh/cep-api": "^1.0"
     }
 }

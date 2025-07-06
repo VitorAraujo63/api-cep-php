@@ -4,17 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eddc76bd5039aa1afc01041ff7cec679",
-    "packages": [],
+    "content-hash": "2abebf9c9cf3b497d0fd6860a74dae45",
+    "packages": [
+        {
+            "name": "vitorh/cep-api",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/VitorAraujo63/api-cep-php.git",
+                "reference": "145a93f2f317bf3d2319d474d3bae4c319b43cff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/VitorAraujo63/api-cep-php/zipball/145a93f2f317bf3d2319d474d3bae4c319b43cff",
+                "reference": "145a93f2f317bf3d2319d474d3bae4c319b43cff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Search": "src/"
+                },
+                "psr-4": {
+                    "VitorH\\CepApi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vitor H.",
+                    "email": "vitor.araujo63@etec.sp.gov.br"
+                }
+            ],
+            "description": "Busca de cep online",
+            "support": {
+                "issues": "https://github.com/VitorAraujo63/api-cep-php/issues",
+                "source": "https://github.com/VitorAraujo63/api-cep-php/tree/1.0.0"
+            },
+            "time": "2025-07-06T21:49:45+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {
-        "php": ">=8.4.1"
-    },
+    "platform": {},
     "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
