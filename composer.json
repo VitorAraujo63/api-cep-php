@@ -1,0 +1,23 @@
+{
+    "name": "vitorh/cep-api",
+    "description": "Busca de cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitor H.",
+            "email": "vitor.araujo63@etec.sp.gov.br"
+        }
+    ],
+    "require": {
+        "php": ">=8.4.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "VitorH\\CepApi\\": "src/"
+        }
+    }
+}
